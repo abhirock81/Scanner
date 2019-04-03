@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myreviews"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="MyReviews" />
+        <item
+            android:id="@+id/levelofrewards"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Level and Rewards" />
+        <item
+            android:id="@+id/pendingRewardRequest"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pending Gift" />
+        <item
+            android:id="@+id/forservicepurpose"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gift Approval(for admin only)" />
+        <item
+            android:id="@+id/abc"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="add" />
+    </group>
+</menu>

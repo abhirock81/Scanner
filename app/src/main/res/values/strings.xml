@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="facebook_application_id" translatable="false">251241152253997</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb251241152253997</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_xyz">Hello XYZ</string>
+    <string name="points">Points</string>
+    <string name="places">Places</string>
+    <string name="on_spot_gift">On Spot Gift</string>
+    <string name="gift_by_post">Gift by Post</string>
+    <string name="name">Name</string>
+
+    <string name="enter_city">Enter City</string>
+    <string name="enter_your_state">Enter your State</string>
+    <string name="enter_your_pincode">Enter your pincode</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="submit">Submit</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_pincode">Enter Pincode</string>
+    <string name="enter_number">Enter number</string>
+    <string name="enter_email">Enter email</string>
+    <string name="textview">TextView</string>
+    <string name="enter_your_review">Enter Your Review</string>
+    <string name="services">Services</string>
+    <string name="redeem_generated_qr_code">Redeem Generated QR Code</string>
+    <string name="location_is_picked_automatically">Location is picked Automatically</string>
+    <string name="hint_search_for_products_services">Hint! Search for Products/Services</string>
+    <string name="reviews">Reviews</string>
+    <string name="level">Level</string>
+    <string name="search_location">search location !</string>
+    <string name="address">Address</string>
+    <string name="address1">Address :</string>
+    <string name="description">Description</string>
+    <string name="description1">Description :</string>
+    <string name="category">Category</string>
+    <string name="category1">Category :</string>
+    <string name="product_name">PRODUCT NAME</string>
+    <string name="search">Search</string>
+    <string name="location">Location</string>
+    <string name="scan_to_reviews">Scan\nfor\nReviews</string>
+    <string name="search_reviews">Search\nfor\nReviews</string>
+    <string name="give_review">Scan\nto\ngive\nreview</string>
+    <string name="check_review">Scan\nto\nsearch\nreview</string>
+
+</resources>

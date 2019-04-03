@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a1605417.scanner">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent=".TheBackupAgent"
+        android:fullBackupContent="true"
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PendingGift" />
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAI3T5RrdGRkMmbCr0SPkIv8FRrZbv0mI8khnd0Bg" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+
+        <activity android:name=".ScannedBarcodeActivity" />
+        <activity android:name=".Review" />
+        <activity android:name=".EventDetail" />
+        <activity android:name=".ReviewList" />
+        <activity android:name=".Redeem" />
+        <activity android:name=".OtpVerification" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme1" />
+        <activity android:name=".CategoryReviews" />
+        <activity android:name=".ProductReviews" />
+        <activity android:name=".RewardList" />
+        <activity android:name=".RewardsRedeem" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".ProductsSearchActivity" />
+        <activity android:name=".SubCatSearch" />
+        <activity android:name=".RedeemMethod" />
+        <activity android:name=".ServiceScanner" />
+        <activity android:name=".RewardApproval" />
+        <activity android:name=".PopupActivity"></activity>
+    </application>
+
+</manifest>
